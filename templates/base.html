@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>title</title>
+    <link type="text/css" href="/static/styles/style.css" rel="stylesheet">
 </head>
 <header>
-    <a href="{% url 'home' %}">Home</a>|<a href="{% url 'about' %}">About</a>
+    {% block header %}
+        {% block mainmenu %}
+            <ul class="mainmunu">
+                <li>
+                    <a href="{% url 'home' %}">Главная</a><a href="{% url 'about' %}">О сайте</a><a href="{% url 'feedback' %}">Обратная связь</a>
+                </li>
+            </ul>
+        {% endblock mainmenu %}
+    {% endblock %}
 </header>
 <body>
-    {% block content %}
-    {%  endblock %}
+{% block content %}
+{% endblock %}
 </body>
 </html>

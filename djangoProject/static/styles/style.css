@@ -1,0 +1,46 @@
+html, body {
+    margin: 1px;
+}
+
+a {
+    color: #3e9dfc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CC0000;
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+
+ul.mainmunu {
+    list-style: none;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    overflow: hidden;
+    background: #191919;
+}
+
+ul.mainmunu li {
+    float: left;
+    margin: 18px 40px 0 50px;
+}
+
+ul.mainmunu li.last {
+    float: right
+}
+
+ul.mainmunu li a {
+    color: #00c7ff;
+    text-decoration: none;
+}
+
+ul.mainmunu li a:hover {
+    color: #ca741f;
+}

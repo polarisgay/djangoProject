@@ -9,3 +9,7 @@ class HomePageView(TemplateView):
 
 class AboutPageView(TemplateView):
     template_name = 'about.html'
+
+
+class FeedbackPageView(TemplateView):
+    template_name = 'feedback.html'
