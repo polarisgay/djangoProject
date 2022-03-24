@@ -1,3 +1,5 @@
 .idea
 .venv
 .README.md
+.gitignore
+.db.sqlite3
